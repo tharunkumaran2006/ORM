@@ -23,12 +23,11 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-![image](https://github.com/Narasimhan05/ORM/assets/132819871/6de849a1-eaec-49d9-a55a-31f993fd275f)
-![image](https://github.com/Narasimhan05/ORM/assets/132819871/4ba76e61-8ba9-4229-80b0-bc63a28102c3)
+![image](https://github.com/Narasimhan05/ORM/assets/132819871/49ca5721-ea06-474c-a8cd-366d19390b0c)
 
 ## OUTPUT
 
-![image](https://github.com/Narasimhan05/ORM/assets/132819871/1acd1a6b-559a-4095-8946-8727a9e4548e)
+![image](https://github.com/Narasimhan05/ORM/assets/132819871/8a6e8acd-d789-4f00-a390-d3225f1415d3)
 
 
 ## RESULT
