@@ -25,6 +25,7 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 ![Screenshot 2024-03-07 185032](https://github.com/tharunkumaran2006/ORM/assets/151625188/ccb7f6a3-52ed-499f-bd68-6f59d7313bf9)
+
 ![Screenshot 2024-03-07 185045](https://github.com/tharunkumaran2006/ORM/assets/151625188/a61418d9-cb82-4261-b6fa-6daf73570b1e)
 
 ## OUTPUT
