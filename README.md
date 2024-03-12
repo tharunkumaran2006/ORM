@@ -27,8 +27,7 @@ Execute Django admin and create details for 10 books
 
 ## OUTPUT
 
-![image](https://github.com/Narasimhan05/ORM/assets/132819871/8a6e8acd-d789-4f00-a390-d3225f1415d3)
-
+![image](https://github.com/Narasimhan05/ORM/assets/132819871/301457a4-7324-4ff6-91a1-7bfc8b9e43a4)
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
