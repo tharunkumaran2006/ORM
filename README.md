@@ -24,7 +24,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-'from django.db import models
+"from django.db import models
 from django.contrib import admin
 class Book(models.Model):
 	bookno         = models.IntegerField(primary_key=True);
@@ -34,7 +34,7 @@ class Book(models.Model):
 	published_date = models.DateField();
 	bookprice      = models.IntegerField();
 class BookAdmin(admin.ModelAdmin):
-	list_display=("bookno","bookname","author","pages","published_date","bookprice"); '
+	list_display=("bookno","bookname","author","pages","published_date","bookprice"); "
 
 ## OUTPUT
 ![Screenshot 2024-03-07 182848](https://github.com/tharunkumaran2006/ORM/assets/151625188/fd7e3d80-d590-4095-af76-33bfbfe9c97c)
