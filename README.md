@@ -47,7 +47,7 @@ admin.site.register(Book,BookAdmin)
 
 ## OUTPUT
 
-![Screenshot 2024-03-15 114345](https://github.com/Narasimhan05/ORM/assets/132819871/85055533-7014-446e-be61-c582d453b411
+![Screenshot 2024-03-15 114345](https://github.com/Narasimhan05/ORM/assets/132819871/5881c5cd-f573-4542-b2f7-915447edfb33)
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
