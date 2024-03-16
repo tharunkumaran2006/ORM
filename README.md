@@ -5,6 +5,7 @@
 To develop a Django application to store and retrieve data from a Book database using Object Relational Mapping(ORM).
 
 ## ENTITY RELATINSHIP DIAGRAM
+![ER Diagram](https://github.com/tharunkumaran2006/ORM/assets/151625188/bf07db08-08c2-48e1-91df-89858b983483)
 
 
 
@@ -23,9 +24,30 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+```
+models.py
 
+from django.db import models
+from django.contrib import admin
+class Book(models.Model):
+	bookno         = models.IntegerField(primary_key=True);
+	bookname       = models.CharField(max_length=20);
+	author         = models.CharField(max_length=20);
+	pages          = models.IntegerField();
+	published_date = models.DateField();
+	bookprice      = models.IntegerField();
+class BookAdmin(admin.ModelAdmin):
+	list_display=("bookno","bookname","author","pages","published_date","bookprice");
+
+admin.py
+	
+from django.contrib import admin
+from.models import Book,BookAdmin
+admin.site.register(Book,BookAdmin)
+```
 
 ## OUTPUT
+![Screenshot 2024-03-15 191241](https://github.com/tharunkumaran2006/ORM/assets/151625188/e3d5a5c9-db34-4962-8788-aef2d48fcb2f)
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
