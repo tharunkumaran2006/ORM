@@ -1,5 +1,5 @@
 # Ex02 Django ORM Web Application
-## Date: 
+## Date: 27.02.2024
 
 ## AIM
 To develop a Django application to store and retrieve data from a Book database using Object Relational Mapping(ORM).
@@ -29,21 +29,21 @@ models.py
 
 from django.db import models
 from django.contrib import admin
-class Book(models.Model):
+class Books(models.Model):
 	bookno         = models.IntegerField(primary_key=True);
 	bookname       = models.CharField(max_length=20);
 	author         = models.CharField(max_length=20);
 	pages          = models.IntegerField();
 	published_date = models.DateField();
 	bookprice      = models.IntegerField();
-class BookAdmin(admin.ModelAdmin):
+class BooksAdmin(admin.ModelAdmin):
 	list_display=("bookno","bookname","author","pages","published_date","bookprice");
 
 admin.py
 	
 from django.contrib import admin
-from.models import Book,BookAdmin
-admin.site.register(Book,BookAdmin)
+from.models import Books,BooksAdmin
+admin.site.register(Books,BooksAdmin)
 ```
 
 ## OUTPUT
